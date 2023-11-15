@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(double-conversion VERSION 3.3.0)
 
-option(BUILD_SHARED_LIBS "Build shared libraries (.dll/.so) instead of static ones (.lib/.a)" OFF)
+option(BUILD_SHARED_LIBS "Build shared libraries (.dll/.so) instead of static ones (.lib/.a)" ON)
 
 if(MSVC)
   if(BUILD_SHARED_LIBS)
